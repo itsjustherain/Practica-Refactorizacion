@@ -1,6 +1,6 @@
 public class Calculadora {
-    public void p(int a, int b) {
-        int r = a + b;
-        System.out.println("Resultado: " + r);
+    public void imprimirSuma(int numeroUno, int numeroDos) {
+        int resultado = numeroUno + numeroDos;
+        System.out.println("Resultado: " + resultado);
     }
 }
